@@ -1,0 +1,31 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    background-color: sandybrown;
+    height:120px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left:120px;
+    padding-right:120px;
+}
+
+.bottom-links {
+    display:flex;
+    width:500px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.login {
+    display:flex;
+    justify-content: end;
+}
+
+.login-button {
+    padding-left:10px;
+    padding-right:10px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
