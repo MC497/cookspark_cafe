@@ -11,6 +11,15 @@
     padding-right:120px;
 }
 
+.flame {
+    height:80px;
+    width:auto;
+}
+
+.header-logo {
+    display:flex;
+}
+
 .bottom-links {
     display:flex;
     width:500px;
@@ -23,11 +32,16 @@
     justify-content: end;
 }
 
-.login-button {
-    padding-left:10px;
-    padding-right:10px;
+.buttons {
+    padding:5px 15px 5px;
     margin-bottom:20px;
-    margin-top:10px;
+    margin-top:15px;
+    background-color: #1F363D;
+    color:white;
+    font-weight: bold;
+    font-size:medium;
+    border-radius:5px;
+    box-shadow: none;
 }
 
 .main-content {
@@ -70,4 +84,47 @@
 .vote-icon {
     height:60px;
     width:50px;
+}
+
+.hr {
+    margin:20px 80px 20px;
+}
+
+.lower-section {
+    display:flex;
+    justify-content: space-between;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.video {
+    height:200px;
+    width:auto;
+}
+
+.newsletter-popup {
+    border:1px solid gray;
+    background-color:white;
+    padding:5px;
+    width:250px;
+    padding-left:15px;
+    position:fixed;
+    bottom:0;
+    right:20px;
+}
+
+.x {
+    height:20px;
+    width:auto;
+    margin-left:230px;
+}
+
+.footer {
+    background-color: #1F363D;
+    color:white;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:70px;
 }
