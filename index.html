@@ -15,15 +15,15 @@
             <img src="img\flame.png" alt="flame-icon" class="flame"><h1>CookSpark Cafe</h1>
         </div>
         <div class="nav-links">
-            <div class="login"><button class="buttons">Login</button></div>
+            <div class="login"><button class="buttons" id="login-button" onclick="login()">Login</button></div>
             <div class="bottom-links">
                 <h2>About Us</h2>
                 <h2>Menus</h2>
-                <select name="location" id="location">
+                <select name="location" id="location" onchange="locationChange(this)">
                     <option value="placeholder">Select Location</option>
-                    <option value="chatt">Chattanooga, TN</option>
-                    <option value="boston">Boston, MA</option>
-                    <option value="ny">New York, NY</option>
+                    <option value="Chattanooga">Chattanooga, TN</option>
+                    <option value="Boston">Boston, MA</option>
+                    <option value="New York">New York, NY</option>
                 </select>
             </div>
         </div>
@@ -92,8 +92,8 @@
         </div>
     </div>
 
-    <div class="newsletter-popup">
-        <img src="img\x.png" alt="x" class="x">
+    <div class="newsletter-popup" id="popup">
+        <img src="img\x.png" alt="x" class="x" onclick="removePopup(this)">
         <p>Want to get recipes delivered to your inbox? Sign up for our newsletter! Only one email a week - we promise.</p>
         <button class="buttons">Sign up for newsletter</button>
     </div>

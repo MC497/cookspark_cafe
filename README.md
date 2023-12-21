@@ -10,6 +10,8 @@ CookSpark is the name of a startup company pitched by myself and Chris Davis. Al
 
 **Image/Video Attributions:**
 
+Flame in Logo: Whimsical.com (icon library)
+
 Sandwich #1: Photo by Rajesh TP: https://www.pexels.com/photo/white-cream-on-white-bowl-1633525/
 
 Sandwich #2: Photo by Lisa Fotios: https://www.pexels.com/photo/basil-leaves-and-avocado-on-sliced-bread-on-white-ceramic-plate-1351238/
