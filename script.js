@@ -42,3 +42,9 @@ function playVideo(element) {
 function pauseVideo(element) {
     element.pause();
 }
+
+function timeoutMessage() {
+    alert("Your session is about to time out!");
+}
+
+setTimeout(timeoutMessage,10000); //10 second time out
