@@ -39,8 +39,8 @@
                 <p>Taste the sea! Grilled shimp and lobster with citrus mayo and seaweed salad on a sea salt roll. <a href="#">Recipe</a></p>
             </div>
             <div class="voting-block">
-                <img src="img\vote_icon.png" alt="vote icon" class="vote-icon">
-                <p class="vote-counter">12 votes</p>
+                <img src="img\vote_icon.png" alt="vote icon" class="vote-icon" onclick="likeNum1()">
+                <p class="vote-counter" id="num1">12 votes</p>
             </div>
         </div>
         <!-- Green -->
@@ -51,8 +51,8 @@
                 <p>Green and good for you! Turkey, avocado, hummus, sliced cucumber, and basil pesto swirls on 7 grain bread. <a href="#">Recipe</a></p>
             </div>
             <div class="voting-block">
-                <img src="img\vote_icon.png" alt="vote icon" class="vote-icon">
-                <p class="vote-counter">24 votes</p>
+                <img src="img\vote_icon.png" alt="vote icon" class="vote-icon" onclick="likeNum2()">
+                <p class="vote-counter" id="num2">24 votes</p>
             </div>
         </div>
         <!-- Ham -->
@@ -63,8 +63,8 @@
                 <p>Bring the holiday flavor with honey glazed ham, sliced baked apples, and carmelized onions on Hawaiian rolls. <a href="#">Recipe</a></p>
             </div>
             <div class="voting-block">
-                <img src="img\vote_icon.png" alt="vote icon" class="vote-icon">
-                <p class="vote-counter">33 votes</p>
+                <img src="img\vote_icon.png" alt="vote icon" class="vote-icon" onclick="likeNum3()">
+                <p class="vote-counter" id="num3">33 votes</p>
             </div>
         </div>
     </div>
@@ -73,11 +73,12 @@
     <div class="lower-section">
         <div class="search-recipes">
             <h2>Search our recipes</h2>
-            <input type="text" placeholder="Vegetarian, Pizza, Soup...">
+            <input type="text" placeholder="Vegetarian, Pizza, Soup......">
         </div>
         <div class="tips-video-block">
             <h2>Get Cooking Tips</h2>
-            <video src="img\cooking_tips.mp4" class="video"></video>
+            <video src="img\cooking_tips.mp4" class="video" id="sample-video" controls loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
+            <h4>The Perfect Parsley Chop</h4>
         </div>
         <div class="articles">
             <h2>Articles</h2>
